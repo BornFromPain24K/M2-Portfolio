@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>M&sup2; | Junior Developer</title>
+    <meta name="description" content="Benvenuto su M²! Junior Developer specializzato in C, Java e MySQL, in evoluzione sul web con HTML/CSS. Inglese B2.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="intestazione">
+        <h1>M&sup2;</h1>
+        <h2>Matteo Medici - Junior Dev.</h2>
+        
+        <div class="social-banner">
+            <a href="https://github.com/BornFromPain24K" target="_blank" title="Il mio GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/teo18vii/" target="_blank" title="Il mio Instagram"> <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.reddit.com/user/skurtyV12/" target="_blank" title="Il mio Reddit"> <i class="fab fa-reddit-alien"></i>
+            </a>
+        </div>
+    </div>
+    
+    <ul class="navbar">
+        <li><a href="#chi-sono">Chi Sono</a></li>
+        <li><a href="#competenze">Competenze</a></li>
+        <li><a href="#progetti">Progetti</a></li>
+        <li><a href="#contatti">Contatti</a></li> 
+    </ul>
+
+    <div class="contenitore">
+
+        <div id="chi-sono" class="sezione chi-sono-container">
+            <h3>Chi Sono</h3>
+            
+            <img src="img/imgprofile.png" alt="Avatar" class="foto-profilo">
+            
+            <div class="testo-presentazione">
+                <p>Ciao! Sono Matteo, uno sviluppatore Junior con una passione per il computer che mi accompagna fin da quando avevo 10 anni. Il mio vero amore per il codice, in particolare per la programmazione in <strong>C</strong>, è sbocciato durante il Liceo e ha tracciato la strada per il mio futuro.</p>
+                <p>Attualmente sto frequentando il corso di laurea in <strong>Informatica presso l'Università degli Studi di Salerno</strong>. È un percorso che mi sta entusiasmando profondamente e mi permette di esplorare mondi nuovi, dallo sviluppo backend (Java, MySQL) al mondo Web (HTML, CSS). Inoltre, parlo fluentemente inglese (<em>Certificazione Cambridge B2 First</em>), il che mi permette di comprendere al meglio i linguaggi di programmazione e le documentazioni sul web.</p>
+                <p>Non vedo l'ora di entrare nel mondo del lavoro per mettermi in gioco, dimostrare il mio valore e trasformare la teoria in progetti reali.</p>
+                <p>Sono una persona che affronta ogni nuova sfida con determinazione e con il <strong>sorriso sempre stampato in faccia</strong>: credo fermamente che il segreto per una vita e una carriera di successo sia proprio questo, il perfetto connubio tra allegria e duro lavoro.</p>
+            </div>
+        </div>
+
+        <div id="competenze" class="sezione">
+            <h3>Le mie Competenze</h3>
+            <ul class="lista-competenze">
+                <li>
+                    <img src="img/logo-c.png" alt="C" class="icona-linguaggio"> 
+                    <strong>Sviluppo Software:</strong> C
+                </li>
+                <li>
+                    <img src="img/java-logo.png" alt="Java" class="icona-linguaggio"> 
+                    <strong>Sviluppo Software:</strong> Java
+                </li>
+                <li>
+                    <img src="img/mysql-logo.png" alt="MySQL" class="icona-linguaggio"> 
+                    <strong>Database:</strong> MySQL
+                </li>
+            </ul>
+        </div>
+
+        <div id="progetti" class="sezione">
+            <h3>I miei Progetti</h3>
+            <p>Una panoramica dei progetti su cui sto lavorando e che ho completato:</p>
+            
+            <table>
+                <tr>
+                    <th>Progetto & Descrizione</th>
+                    <th>Tecnologie</th>
+                    <th>Stato</th>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <strong>Portfolio Personale M&sup2;</strong><br>
+                        <small>Sito web statico personale usato come vetrina per i miei progetti futuri.</small>
+                    </td>
+                    <td>HTML5, CSS3</td>
+                    <td>In continuo sviluppo</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <strong>Sistema Prenotazione Alloggi</strong><br>
+                        <small>Applicazione desktop per la gestione, prenotazione e recensione di strutture ricettive.</small>
+                    </td>
+                    <td>Java, MySQL</td>
+                    <td>Completato</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <strong>E-commerce Maglie da Calcio</strong><br>
+                        <small>Prossimo progetto per il corso TSW: store online dedicato alle maglie da calcio storiche.</small>
+                    </td>
+                    <td>Web Stack (TSW)</td>
+                    <td>Prossimamente</td>
+                </tr>
+            </table>
+        </div>
+
+    </div> <div id="contatti" class="sezione-contatti">
+        <div class="contenitore-form">
+            <h3>Lavoriamo Insieme</h3>
+            <p>Sei interessato al mio profilo? Scrivimi per proposte lavorative o collaborazioni.</p>
+            
+            <form action="#" method="POST" class="form-messaggio">
+                <div class="gruppo-input">
+                    <label for="nome">Il tuo Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Es. Mario Rossi" required>
+                </div>
+
+                <div class="gruppo-input">
+                    <label for="email">La tua Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Es. mario@azienda.it" required>
+                </div>
+
+                <div class="gruppo-input">
+                    <label for="messaggio">Il tuo Messaggio:</label>
+                    <textarea id="messaggio" name="messaggio" rows="5" placeholder="Parlami del tuo progetto..." required></textarea>
+                </div>
+
+                <button type="submit" class="bottone-invia">Invia Messaggio</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer-semplice">
+        <p>&copy; 2026 Matteo Medici | <a href="https://github.com/BornFromPain24K" target="_blank"> Visita il mio GitHub</a></p>
+    </div>
+
+</body>
+</html>
